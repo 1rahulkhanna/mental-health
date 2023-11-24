@@ -1,0 +1,943 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="index.css" />
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+      integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
+      crossorigin="anonymous"
+    />
+    <!-- Font Awesome -->
+  <script src="index.js"></script>
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.8/css/all.css">
+    <link rel="stylesheet" href="CSS/index.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@200&display=swap"
+      rel="stylesheet"
+    />
+    <title>MyCareerBridge</title>
+  </head>
+  <body>
+    <nav class="navbar navbar-expand-lg navbar-light" id="navi">
+      <div class="container-fluid">
+        <a class="navbar-brand" id="text" href="#"
+          >MyCareerBridge</span></a
+        >
+        <div class="navbar justify-content-end" id="navbarSupportedContent">
+          <ul class="navbar-nav me-auto">
+            <li class="nav-item">
+              <a class="nav-link" id="links" href="index.html">HOME</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" id="links" href="about.html">ABOUT</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <div id="myCarousel" class="carousel slide" data-ride="carousel">
+      <ol class="carousel-indicators">
+        <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+        <li data-target="#myCarousel" data-slide-to="1"></li>
+        <li data-target="#myCarousel" data-slide-to="2"></li>
+      </ol>
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <img
+            src="main.jpg"
+            
+            alt="image"
+            
+          />
+
+          <div class="container">
+            <div class="carousel-caption">
+              <!-- <h2>Guiding you all the way</h2>
+              <p>Make career decisions that will change your life😉</p>
+              <p>
+                <a class="btn btn-lg btn-primary" href="#par">Learn More</a>
+              </p> -->
+            </div>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <img src="./Images/12-Career-Management-Skills-and-How-to-measure-them.edited.jpg " style="width: 85%;" alt="imge" />
+          <div class="container">
+            <div class="carousel-caption">
+              <!-- <h2 >Helpful Resources</h2>
+              <p>Your career matters so choose your course wisely</p>
+              <p>
+                <a class="btn btn-lg btn-primary" href="#par">Learn more</a>
+              </p> -->
+            </div>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <img src="./Images/1600356731_career-counselling.jpg" style="width: 85%;" alt="image" />
+          <div class="container">
+            <div class="carousel-caption">
+              <!-- <h2>Promoting career guidance to the fullest</h2>
+              <p>
+                Don’t worry about trying to please everyone. Focus on yourself..
+              </p>
+              <p>
+                <a class="btn btn-lg btn-primary" href="#par">Learn More</a>
+              </p> -->
+            </div>
+          </div>
+        </div>
+      </div>
+      <a
+        class="carousel-control-prev"
+        href="#myCarousel"
+        role="button"
+        data-slide="prev"
+      >
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="sr-only">Previous</span>
+      </a>
+      <a
+        class="carousel-control-next"
+        href="#myCarousel"
+        role="button"
+        data-slide="next"
+      >
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="sr-only">Next</span>
+      </a>
+    </div>
+    <section class="introd">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-12">
+            <div class="header">
+              <h2 id="one">
+                SIP ON SOME COFFEE AND LET'S <span class="h"> DISCUSS YOUR FUTURE!</span>
+              </h2>
+            </div>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-md-12">
+            <div class="fluid">
+              <p id="par">
+                <strong>Let's go! Who doesn't like having a solid career option? It's actually good to pursue a career that fits your mood in a world when so much is always changing!<br />
+                Since picking what makes you happy and what motivates you is ultimately up to you, a career interest and a person go together like bread and butter.<br /></strong>
+                <span class="h">We give you an overview of the streams on this page so you can choose the correct path for your career.</span>
+                <h1>Simple Form</h1>
+                <form action="process.php" method="post">
+                    <label for="username">Username:</label>
+                    <input type="text" id="username" name="username" required>
+                    
+                    <label for="email">Email:</label>
+                    <input type="email" id="email" name="email" required>
+                    
+                    <input type="submit" value="Submit">
+                </form>
+            
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="mycourse">
+      <div class="container" id="table">
+        <div class="row">
+          <div class="col-md-12">
+            <div class="content">
+
+              <div class="science">
+                <h3 id="one">Science Stream</h3>
+                <div id="course1">
+                  <button class="btn"> Medicine     </button>
+                  <button class="btn"> Engineering    </button>
+                  <button class="btn"> Architecture   </button>
+                  <button class="btn"> Forensic Science   </button>
+                  <button class="btn"> Biotechnology   </button>
+                  <button class="btn"> Pharmacology  </button>
+                </div>
+              </div>
+              <hr />
+
+            
+              <div class="commerce">
+                <h3 id="two">Commerce Stream</h3>
+                <div id="course2">
+                  <button class="btn">Chartered Accountant (CA)</button>
+                  <button class="btn">Certified Management and Accountant (CMA)</button>
+                  <button class="btn">Company Secretary (CS)</button>
+                  <button class="btn">Chartered Financial Analyst (CFA)</button>
+                  <button class="btn" id="itB">Business Administration</button>
+                </div>
+              </div>
+              <hr />
+
+              <div class="arts">
+                <h3 id="three">Arts Stream</h3>
+                <div id="course3">
+                  <button class="btn" id="econ">Media field</button>
+                  <button class="btn" id="prods">Designing sector</button>
+                  <button class="btn">Lawyer</button>
+                  <button class="btn"> IAS/IPS/IFS and other Officer</button>
+                  <button class="btn">Hotel Management</button>
+                </div>
+              </div>
+              <hr />
+
+              <div class="tech">
+                <h3 id="four">Computer Stream</h3>
+                <div id="course4">
+                  <button class="btn">Computer Science</button>
+                  <button class="btn">Software Engineering</button>
+                  <button class="btn">Artificial Intelligence</button>
+                  <button class="btn">Bachelors in Computer Applications</button>
+                  <button class="btn">Data Science</button>
+                  <button class="btn" id="itA">Information Technology</button>
+                </div>
+              </div>
+              <hr />
+
+
+
+              <div class="healthcare">
+                <h3 id="five">Healthcare Sector</h3>
+                <div id="course5">
+                  <button class="btn" id="acc">Neurologist</button>
+                  <button class="btn">Psychiatrist</button>
+                  <button class="btn">Surgeon</button>
+                  <button class="btn">Cardiologist</button>
+                  <button class="btn">Anesthesiologist</button>
+                </div>
+              </div>
+              <hr />
+              <div class="engineering">
+                <h3 id="six">Engineering Sector</h3>
+                <div id="course6">
+                  <button class="btn">Mechanical Engineering</button>
+                  <button class="btn">Electrical Engineering</button>
+                  <button class="btn">Chemical Engineering </button>
+                  <button class="btn">Civil Engineering</button>
+                  <button class="btn">Electronics Engineering</button>
+                </div>
+              </div>
+              <hr />
+              <div class="humanities">
+                <h3 id="seven">Humanities Stream</h3>
+                <div id="course7">
+                  <button class="btn" id="itC">Land Survey</button>
+                  <button class="btn">Political Studies</button>
+                  <button class="btn">History</button>
+                  <button class="btn">Religious Studies</button>
+                  <button class="btn">Space Exploration</button>
+                </div>
+              </div>
+              <hr />
+              <div class="defence">
+                <h3 id="eight">Defence Services</h3>
+                <div id="course8">
+                  <button class="btn">Army- Brigadier</button>
+                  <button class="btn">Navy- Commodore</button>
+                  <button class="btn">Air Force- Air Commodore</button>
+                  <button class="btn"> Field Marshal</button>
+                  <button class="btn">Chief of Defence Staff</button>
+                </div>
+              </div>
+              <hr/>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!--Information Technology section-->
+    <section id="IT">
+      <section class="courses">
+        <div class="container">
+          <div class="row">
+            <div class="col-md-12">
+              <div class="card" id="start">
+                <div class="card-header">
+                  COURSE DETAILS:
+                  <span id="specific">INFORMATION TECHNOLOGY</span>
+                </div>
+                <div class="card-body">
+                  <h4 class="card-title">WHAT DOES AN IT CAREER ENTAIL?</h4>
+                  <p class="card-text">
+                    Computers, storage, and networking tools are used in information technology (IT) to produce, process, store, distribute, and safeguard electronic data.
+                    It is a rapidly expanding industry, partly as a result of the increased demand for IT services across all industries.
+                    IT degree programmes prepare students to work for IT departments and consulting organisations and earn potentially significant incomes.
+                    According to the U.S. Bureau of Labor Statistics, the median annual wage for IT jobs was $81,430 in May 2015, which is much higher than the average for all occupations.
+                    Learn more about how to get started in the IT industry, including the many career options and educational requirements for employment, by reading on.
+                  </p>
+                  <p>
+                    The university awarding the certificate may provide a wide range of information technology degree programmes.
+                     There are educational alternatives to fit practically any budget or schedule, ranging from conventional schools and universities to accredited online and distant learning degree programmes. 
+                     In specific fields of information technology, some colleges offer certificate programmes. Others provide associate, bachelor's, or master's degree programmes that are intended to develop well-rounded individuals with a comprehensive knowledge foundation in a variety of information technology fields.
+                  </p>
+                  <p>
+                    Both on-campus and online options are available if you're seeking for information technology degree programmes.
+                     If you want to enrol in a distant school without moving from where you live, an online programme can be a wonderful option. 
+                     Online degrees in information technology are actually available in a wide variety of formats. These include totally online programmes, accelerated online options, joint degree programmes, and hybrid programmes, which combine campus-based and distance learning courses.
+                     The majority of online computer technology degree programmes also make use of a learning management system that lets you submit assignments, ask questions, and engage in discussions with other students.
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="unis">
+        <div class="container">
+          <div class="row">
+            <div class="col-md-12">
+              <div class="card" id="second">
+                <div class="card-header">UNIVERSITIES:</div>
+                <div class="card-body">
+                  <table class="table table-hover">
+                    <thead id="top">
+                      <tr>
+                        <th scope="col">No.</th>
+                        <th scope="col">University</th>
+                        <th scope="col">Location</th>
+                        <th scope="col">Website</th>
+                      </tr>
+                    </thead>
+                    <tbody>
+                      <tr>
+                        <th scope="row">1</th>
+                        <td>Amrita University</td>
+                        <td> Tamil Nadu | Coimbatore</td>
+                        <td>
+                          <a href="https://www.amrita.edu/" target="self"
+                            >Amrita University</a
+                          >
+                        </td>
+                      </tr>
+                      <tr>
+                        <th scope="row">2</th>
+                        <td>VIT University</td>
+                        <td>Tamil Nadu | Vellore</td>
+                        <td>
+                          <a href="https://vit.ac.in/" target="self"
+                            >VIT University</a
+                          >
+                        </td>
+                      </tr>
+                      <tr>
+                        <th scope="row">3</th>
+                        <td>Amity University</td>
+                        <td>Uttar Pradesh | Noida</td>
+                        <td>
+                          <a href="https://amity.edu/index.aspx" target="self"
+                            >Amity University</a
+                          >
+                        </td>
+                      </tr>
+                    </tbody>
+                  </table>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="last">
+        <div class="container">
+          <div class="row">
+            <div class="col-md-6">
+              <div
+                class="card text-white mb-3"
+                id="third"
+                style="max-width: 35rem"
+              >
+                <div class="card-header" id="hh">
+                  Complimentary Cerfifications
+                </div>
+                <div class="card-body">
+                  <ol>
+                    <li>
+                      <h5 class="card-title">
+                        Cisco Certified Network Associate (CCNA)
+                      </h5>
+                    </li>
+                    <li>
+                      <h5 class="card-title">
+                        Microsoft technology associate (MTA)
+                      </h5>
+                    </li>
+                    <li><h5 class="card-title">CompTIA Security+</h5></li>
+                    <li>
+                      <h5 class="card-title">
+                        Google IT Support Professional Certificate
+                      </h5>
+                    </li>
+                  </ol>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-6">
+              <div
+                class="card text-white mb-3"
+                id="third"
+                style="max-width: 35rem"
+              >
+                <div class="card-header" id="hh">External Resources</div>
+                <div class="card-body">
+                  <ol>
+                    <li>
+                      <a
+                        href="https://www.youtube.com/watch?v=uxfTmqyeiro"
+                        target="self"
+                        ><h5 class="card-title">
+                          Why study Information Technology
+                        </h5></a
+                      >
+                    </li>
+                    <li>
+                      <a
+                        href="https://www.youtube.com/watch?v=2WB6RcY0MPc"
+                        target="self"
+                        ><h5 class="card-title">
+                          Things to know before venturing into it
+                        </h5></a
+                      >
+                    </li>
+                    <li>
+                      <a
+                        href="https://www.youtube.com/watch?v=D4AnFvwJ-eA"
+                        target="self"
+                        ><h5 class="card-title">
+                          What is Information Technology?
+                        </h5></a
+                      >
+                    </li>
+                    <li>
+                      <a
+                        href="https://www.youtube.com/watch?v=QwNgzAgm6hY"
+                        target="self"
+                        ><h5 class="card-title">IT in general</h5></a
+                      >
+                    </li>
+                  </ol>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </section>
+    <!--Closing IT section-->
+
+    <!--Business Administration Section-->
+    <section id="BA">
+      <section class="courses">
+        <div class="container">
+          <div class="row">
+            <div class="col-md-12">
+              <div class="card" id="start">
+                <div class="card-header">
+                  COURSE DETAILS:
+                  <span id="specific">BUSINESS ADMINISTRATION</span>
+                </div>
+                <div class="card-body">
+                  <h4 class="card-title">WHAT DOES AN IT CAREER ENTAIL?</h4>
+                  <p class="card-text">
+                    <em> Bachelor of Business Administration (BBA) degree </em>
+                    is intended to provide in-depth knowledge of a variety of business operations-related topics. 
+                    The program's core curriculum often includes lessons in accounting, marketing, finance, and other subjects. 
+                    At a typical college, it may take up to four years or longer to complete the degree; however, in an accelerated programme, it can be completed considerably more quickly.
+                     You might have developed critical thinking abilities and practical expertise in one or more speciality areas as a graduate. 
+                     You will have the chance to study from instructors with a wealth of business administration knowledge thanks to the program's goal. 
+                     You get the opportunity to meet with like-minded people from diverse walks of life through the course as well.
+                  </p>
+                  <h4>Career Objectives</h4>
+                  <p>
+                    Enrolling in the BBA program you can learn more about
+                    business theory and its real-world applications. In the end,
+                    you could gain an understanding of various aspects of
+                    business administration, including:
+                  </p>
+                  <ul>
+                    <li>
+                      Developing strategic plans using marketing information
+                    </li>
+                    <li>
+                      Understand the role of information technology systems (IT)
+                      in supporting business operations
+                    </li>
+                    <li>
+                      Learn how to solve organizational problems using human
+                      resources and management principles
+                    </li>
+                    <li>
+                      Understand how to use data tools to gather business
+                      intelligence. Proceed to use the information to make key
+                      operational decisions
+                    </li>
+                    <li>Learn to apply critical thinking concepts</li>
+                    <li>
+                      Develop the ability to apply financial management
+                      principles to ensure viability
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="unis">
+        <div class="container">
+          <div class="row">
+            <div class="col-md-12">
+              <div class="card" id="second">
+                <div class="card-header">UNIVERSITIES:</div>
+                <div class="card-body">
+                  <table class="table table-hover">
+                    <thead id="top">
+                      <tr>
+                        <th scope="col">No.</th>
+                        <th scope="col">University</th>
+                        <th scope="col">Location</th>
+                        <th scope="col">Website</th>
+                      </tr>
+                    </thead>
+                    <tbody>
+                      <tr>
+                        <th scope="row">1</th>
+                        <td>Christ University</td>
+                        <td>Bangalore</td>
+                        <td>
+                          <a href="https://www.christuniversity.in/" target="self"
+                            >Christ University</a
+                          >
+                        </td>
+                      </tr>
+                      <tr>
+                        <th scope="row">2</th>
+                        <td>Madras Christian College</td>
+                        <td>Chennai</td>
+                        <td>
+                          <a href="https://mcc.edu.in/" target="self"
+                            >Madras Christian College</a
+                          >
+                        </td>
+                      </tr>
+                      <tr>
+                        <th scope="row">3</th>
+                        <td>Amity International Business School</td>
+                        <td>Noida</td>
+                        <td>
+                          <a href="https://www.amity.edu/aibs/default.asp" target="self"
+                            >Amity International Business School</a
+                          >
+                        </td>
+                      </tr>
+                    </tbody>
+                  </table>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="last">
+        <div class="container">
+          <div class="row">
+            <div class="col-md-6">
+              <div
+                class="card text-white mb-3"
+                id="third"
+                style="max-width: 35rem"
+              >
+                <div class="card-header" id="hh">
+                  Complimentary Cerfifications
+                </div>
+                <div class="card-body">
+                  <ol>
+                    <li><h5 class="card-title">Advanced Certificate</h5></li>
+                    <li>
+                      <h5 class="card-title">Postgraduate Certificate</h5>
+                    </li>
+                    <li><h5 class="card-title">Graduate Certificate</h5></li>
+                    <li>
+                      <h5 class="card-title">Undergraduate Certificate</h5>
+                    </li>
+                    <li><h5 class="card-title">Certificate</h5></li>
+                  </ol>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-6">
+              <div
+                class="card text-white mb-3"
+                id="third"
+                style="max-width: 35rem"
+              >
+                <div class="card-header" id="hh">External Resources</div>
+                <div class="card-body">
+                  <ol>
+                    <li>
+                      <a
+                        href="https://www.youtube.com/watch?v=T46zV_k4Ato"
+                        target="self"
+                        ><h5 class="card-title">
+                          What are the benefits of studying Business
+                          Administration
+                        </h5></a
+                      >
+                    </li>
+                    <li>
+                      <a
+                        href="https://www.youtube.com/watch?v=UtbfATNSePk"
+                        target="self"
+                        ><h5 class="card-title">
+                          What is Business Administration
+                        </h5></a
+                      >
+                    </li>
+                    <li>
+                      <a
+                        href="https://www.youtube.com/watch?v=jMIa9SJiFb8"
+                        target="self"
+                        ><h5 class="card-title">
+                          Complete Career Guide and Career Insight
+                        </h5></a
+                      >
+                    </li>
+                    <li>
+                      <a
+                        href="https://www.youtube.com/watch?v=O0-jJJF6WBo"
+                        target="self"
+                        ><h5 class="card-title">
+                          Thoughts On a Business Administration Degree
+                        </h5></a
+                      >
+                    </li>
+                  </ol>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </section>
+
+    <!--Closing BA section-->
+
+    <!--Geospatial section-->
+    <section id="LA">
+      <section class="courses">
+        <div class="container">
+          <div class="row">
+            <div class="col-md-12">
+              <div class="card" id="start">
+                <div class="card-header">
+                  COURSE DETAILS: <span id="specific">LAND SURVEY</span>
+                </div>
+                <div class="card-body">
+                  <h4 class="card-title">WHAT DOES AN IT CAREER ENTAIL?</h4>
+                  <p class="card-text">
+                    <em> Bachelor of Business Administration (BBA) degree </em>
+                    Students who enrol in the Geospatial Sciences (Building Information Modelling) MSc programme learn the theory, resources, and methods for dealing with geospatial data, from collection to processing to analysis.
+                     Through seminars and a dissertation, students have the chance to interact and collaborate with academics and industrial partners on cutting-edge research.
+                      Students will learn about the geometric and semantic components of BIM as well as the integrated management of geospatial and BIM-related data through the specialised Building Information Modelling (BIM) programme.
+                       A comprehensive review of technologies connected to mapping sciences, geo-information science, and 3D geometric modelling are included, as well as surveying principles and 3D reality capture.
+                    <br />
+                    <strong>Careers</strong>
+                    <br />
+                    With a degree in geospatial sciences (building information modelling), graduates will be prepared for a wide range of positions, such as BIM or surveying manager, geospatial data scientist, geospatial software developer, and consultant.
+                     Graduates find employment with a variety of businesses, including large infrastructure projects, engineering consultancies, geospatial software firms, and national mapping organisations. 
+                     Through the industrial seminar series and industrial research projects, our students forge close connections with business. Additionally, a large number of alumni from our programmes go on to do PhD research at UCL or elsewhere.
+                    <br />
+                    <strong>Employability</strong>
+                    <br />
+                    Employers place a high value on a variety of technical skills that students will learn in geospatial science, such as using specialised software for surveying, Reality Capture, 
+                    BIM and GIS (such as Cyclone, PhotoScan, Revit, QGIS, FME); programming, web and software development (such as Python, R, MATLAB);
+                     geospatial data processing and management; and geospatial data visualisation.
+                  </p>
+                  <h4>Career Objectives</h4>
+                  <p>
+                    The areas in which the knowledge and technology of Surveying
+                    are today applied include:
+                  </p>
+                  <ul>
+                    <li>
+                      Precise determination of the figure of the earth and of
+                      other planets in the solar system
+                    </li>
+                    <li>Measurement and mapping of topography</li>
+                    <li>
+                      Measurement and determination of orbits of artificial
+                      satellites
+                    </li>
+                    <li>
+                      Measurement and determination of the dynamics of the
+                      earths crust
+                    </li>
+                    <li>
+                      Determination and analysis of the earths gravity field
+                    </li>
+                    <li>
+                      Precise positioning on, or near, the earths surface using
+                      both terrestrial and satellite technology techniques
+                    </li>
+                    <li>
+                      Navigation and guidance of craft using satellite and
+                      inertial navigation systems technology
+                    </li>
+                    <li>
+                      Vehicle tracking and intelligent transport systems (ITS)
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="unis">
+        <div class="container">
+          <div class="row">
+            <div class="col-md-12">
+              <div class="card" id="second">
+                <div class="card-header">UNIVERSITIES:</div>
+                <div class="card-body">
+                  <table class="table table-hover">
+                    <thead id="top">
+                      <tr>
+                        <th scope="col">No.</th>
+                        <th scope="col">University</th>
+                        <th scope="col">Location</th>
+                        <th scope="col">Website</th>
+                      </tr>
+                    </thead>
+                    <tbody>
+                      <tr>
+                        <th scope="row">1</th>
+                        <td>SMCET Jaipur </td>
+                        <td>Jaipur </td>
+                        <td>
+                          <a href="https://www.smcet.in/" target="self"
+                            >SMCET Jaipur </a
+                          >
+                        </td>
+                      </tr>
+                      <tr>
+                        <th scope="row">2</th>
+                        <td>Ram Nirikshan Atma Ram College</td>
+                        <td>Samastipur, Bihar</td>
+                        <td>
+                          <a href="http://www.rnarcollege.org/" target="self"
+                            >Ram Nirikshan Atma Ram College</a
+                          >
+                        </td>
+                      </tr>
+                      <tr>
+                        <th scope="row">3</th>
+                        <td>Mahatma Jyoti Rao Phoole University</td>
+                        <td>Jaipur</td>
+                        <td>
+                          <a href="https://mjrpuniversity.ac.in/" target="self"
+                            >Mahatma Jyoti Rao Phoole University</a
+                          >
+                        </td>
+                      </tr>
+                    </tbody>
+                  </table>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="last">
+        <div class="container">
+          <div class="row">
+            <div class="col-md-6">
+              <div
+                class="card text-white mb-3"
+                id="third"
+                style="max-width: 35rem"
+              >
+                <div class="card-header" id="hh">
+                  Complimentary Cerfifications
+                </div>
+                <div class="card-body">
+                  <ol>
+                    <li><h5 class="card-title">Advanced Certificate</h5></li>
+                    <li>
+                      <h5 class="card-title">Postgraduate Certificate</h5>
+                    </li>
+                    <li><h5 class="card-title">Graduate Certificate</h5></li>
+                    <li>
+                      <h5 class="card-title">Undergraduate Certificate</h5>
+                    </li>
+                    <li><h5 class="card-title">Certificate</h5></li>
+                  </ol>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-6">
+              <div
+                class="card text-white mb-3"
+                id="third"
+                style="max-width: 35rem"
+              >
+                <div class="card-header" id="hh">External Resources</div>
+                <div class="card-body">
+                  <ol>
+                    <li>
+                      <a
+                        href="https://www.youtube.com/watch?v=Zgsi2bTKEV8"
+                        target="self"
+                        ><h5 class="card-title">
+                          Geospatial Information Career Video
+                        </h5></a
+                      >
+                    </li>
+                    <li>
+                      <a
+                        href="https://www.youtube.com/watch?v=pHr1uDXlQtM"
+                        target="self"
+                        ><h5 class="card-title">
+                          What is Geospatial Engineering
+                        </h5></a
+                      >
+                    </li>
+                    <li>
+                      <a
+                        href="https://www.youtube.com/watch?v=krQmas719fg"
+                        target="self"
+                        ><h5 class="card-title">
+                          Complete Career Guide and Career Insight
+                        </h5></a
+                      >
+                    </li>
+                  </ol>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </section>
+    <!--Closing LA section-->
+
+
+   
+
+   
+ 
+    <section id="contact">
+      <div class="container1">
+        <div class="content">
+          <div class="left-side">
+            <div class="address details">
+              <i class="fas fa-map-marker-alt"></i>
+              <div class="topic">Address</div>
+              <div class="text-one"></div>
+              <div class="text-two">Jabalpur ,India - 482003</div>
+            </div>
+            <div class="phone details">
+              <i class="fa-solid fa-phone"></i>
+              <div class="topic">Phone</div>
+              <div class="text-one">+91 xxxxxxxxxx</div>
+              <div class="text-two">+91 xxxxx xxxxx</div>
+            </div>
+            <div class="email details">
+              <i class="fas fa-envelope"></i>
+              <div class="topic">Email</div>
+              <div class="text-one">manshavohra03@gmail.com</div>
+              <div class="text-two">MyCareerBridge@gmail.com</div>
+            </div>
+          </div>
+          <div class="right-side">
+            <div class="topic-text">CONTACT US</div>
+            <p>If you have any queries or suggestions, you can send us messages from here. Or if you don't, feel free to drop in a Hi :)</p>
+            <form action="https://server.meowform.xyz/page/aarushichoprachannel@gmail.com&test" method="post">
+                <div class="input-box">
+                <input type="text" name="name" placeholder="Enter your name">
+                </div>
+                <div class="input-box">
+                <input type="text" name="email" placeholder="Enter your email">
+                </div>
+                <div class="input-box message-box">
+                    <input type="text" name="message" placeholder="Enter your message">
+                </div>
+                <div class="button">
+                  <!-- <input type="button" value="Send Me"> -->
+                  <button type="submit">Send Now</button>
+                </div>
+                    <!-- <input type="button" value="Send" placeholder="Send"> -->
+                    
+                
+            </form>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <footer class="page4" id="third1">
+    <div class="mainfooter">
+        <div class="foot-first">
+            <h5 class="foot-head">MyCareerBridge</h5>
+            <br><br>
+            <p class="foot-para">2023, All Rights Reserved</p>  
+        </div>
+        <div class="icons">
+          <ul class="social-media">
+            <a onclick="googleEvent('Footer', 'Twitter',  'Footer: career-counselling-for-class-8-and-9' ,'');" target="_blank" href="https://www.twitter.com/">
+              <img class="soc-med" src="Images/2.png">
+            </a>
+            <a onclick="googleEvent('Footer', 'Facebook',  'Footer: career-counselling-for-class-8-and-9' ,'');" target="_blank" href="https://www.facebook.com/">
+              <img class="soc-med" src="Images/1.png">
+            </a>
+            <a onclick="googleEvent('Footer', 'Instagram',  'Footer: career-counselling-for-class-8-and-9' ,'');" target="_blank" href="https://www.instagram.com/">
+              <img class="soc-med" src="Images/3.png">
+            </a>
+            
+            <a onclick="googleEvent('Footer', 'Linkedin',  'Footer: career-counselling-for-class-8-and-9' ,'');" target="_blank" href="https://www.linkedin.com/">
+              <img class="soc-med" src="Images/5.png">
+            </a>
+            
+          </ul>
+            <!-- <i class="fab fa-instagram f1"></i>
+            <i class="fab fa-youtube-square f2"></i>
+            <i class="fab fa-facebook-f"></i> -->
+    
+        </div>
+        
+            <div class="row11">
+                <div class="col">
+                    <p>Privacy Policy</p>
+                </div>
+                <div class="col term">
+                    <p>Terms Of Service</p>
+                </div>
+                <div class="col">
+                    <p>Cookie Policy</p>
+                </div>
+            </div>
+       
+    </div>
+  </footer>
+    <script
+      src="https://code.jquery.com/jquery-3.6.0.js"
+      integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk="
+      crossorigin="anonymous"
+    ></script>
+    <script src="../Career-Guidance/JS/interest.js"></script>
+    <script src="CSS/bootstrap-4.6.0-dist/js/bootstrap.js"></script>
+  </body>
+</html>
